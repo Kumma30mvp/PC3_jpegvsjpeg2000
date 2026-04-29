@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-04-29T00:48:37.316303+00:00",
+  "python_version": "3.14.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "input_dir": "C:\\Users\\gabri\\OneDrive\\Documentos\\UTEC 2026-1\\Vision y Reconocimento\\pc3\\data\\kodak\\raw",
+  "output_dir": "C:\\Users\\gabri\\OneDrive\\Documentos\\UTEC 2026-1\\Vision y Reconocimento\\pc3\\outputs",
+  "methods": [
+    "jpeg",
+    "jpeg2000"
+  ],
+  "limit": null,
+  "number_of_images_processed": 24,
+  "expected_csv_rows": 144,
+  "actual_csv_rows": 144,
+  "jpeg_backend": "Pillow-JPEG",
+  "jpeg2000_backend": "imagecodecs-JPEG2000",
+  "jpeg_levels": {
+    "low_compression_q90": 90,
+    "medium_compression_q60": 60,
+    "high_compression_q30": 30
+  },
+  "jpeg2000_levels": {
+    "low_compression_cr5": 5,
+    "medium_compression_cr10": 10,
+    "high_compression_cr20": 20
+  }
+}

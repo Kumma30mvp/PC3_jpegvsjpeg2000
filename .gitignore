@@ -1,0 +1,27 @@
+# --- Python virtual environment ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Archives ---
+archive.zip
+*.zip
+
+# --- Raw dataset (each user downloads it from Kaggle) ---
+data/kodak/raw/*.png
+data/kodak/raw/*.tif
+data/kodak/raw/*.tiff
+data/kodak/raw/*.bmp
+data/kodak/raw/*.ppm
+
+# --- Heavy generated artefacts (regenerable by re-running the pipeline) ---
+# Compressed .jpg / .jp2 files
+outputs/compressed/
+# Decoded PNG reconstructions
+outputs/reconstructed/
+
+# NOTE: outputs/metrics/*.csv, outputs/metrics/*.json, and
+# outputs/figures/**/*.png are intentionally NOT ignored — they are the
+# committed summary of the experiment.
+
+.claude/
